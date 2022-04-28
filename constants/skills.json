@@ -1,0 +1,587 @@
+{
+  "Frontend": {
+
+    "Markup": {
+
+      "HTML": {
+        "subtitle": "Standard markup language for web browsers",
+        "LinkedIn": "https://www.linkedin.com/posts/peter-fortier-71359221a_linkedinskillassessment-activity-6835356065815678976-aSyz?utm_source=linkedin_share&utm_medium=member_desktop_web",
+        "info": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "proficiency": 1.0,
+        "subskills": [
+          { "title": "Semantic and accessible practices",
+            "info": "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility",
+            "proficiency": 0.9 },
+          { "title": "XHTML format",
+            "info": "https://www.w3schools.com/html/html_xhtml.asp",
+            "proficiency": 0.9 },
+          { "title": "SVG elements",
+            "info": false,
+            "proficiency": 1.0 }
+        ]
+      },
+
+      "R Markdown": {
+        "subtitle": "Markup language for rendering documents featuring R output [See R in Backend and RStudio in Development Tech]",
+        "LinkedIn": false,
+        "info": "https://rmarkdown.rstudio.com/",
+        "proficiency": 0.7,
+        "subskills": []
+      },
+
+      "LaTeX": {
+        "subtitle": "Technical markup language for science and mathematics",
+        "LinkedIn": false,
+        "info": "https://www.latex-project.org/",
+        "proficiency": 0.7,
+        "subskills": [
+          { "title": "TeXstudio",
+            "info": false,
+            "proficiency": false}
+        ]
+      },
+
+      "Markdown": {
+        "subtitle": "Lightweight markup language",
+        "LinkedIn": false,
+        "info": "https://en.wikipedia.org/wiki/Markdown",
+        "proficiency": 1.0,
+        "subskills": [
+          { "title": "README",
+            "info": false,
+            "proficiency": false}
+        ]
+      }
+
+    },
+
+    "Styling": {
+
+      "CSS": {
+        "subtitle": "Stylesheet language",
+        "LinkedIn": "https://www.linkedin.com/posts/peter-fortier-71359221a_linkedinskillassessment-activity-6835355779571204096-kw5B?utm_source=linkedin_share&utm_medium=member_desktop_web",
+        "info": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "proficiency": 1.0,
+        "subskills": [
+          { "title": "Flexbox",
+            "info": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox",
+            "proficiency": 1.0},
+          { "title": "Grid",
+            "info": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout",
+            "proficiency": 1.0}
+        ]
+      },
+
+      "Sass": {
+        "subtitle": "Preprocessor language for CSS",
+        "LinkedIn": false,
+        "info": "https://sass-lang.com/",
+        "proficiency": 0.9,
+        "subskills": [
+          { "title": "Nesting",
+            "info": false,
+            "proficiency": false},
+          { "title": "Variables",
+            "info": false,
+            "proficiency": false},
+          { "title": "Mixins",
+            "info": false,
+            "proficiency": false},
+          { "title": "Modules",
+            "info": false,
+            "proficiency": false}
+        ]
+      },
+
+      "Bootstrap": {
+        "subtitle": "CSS framework",
+        "LinkedIn": false,
+        "info": "https://getbootstrap.com/",
+        "proficiency": 0.6,
+        "subskills": []
+      },
+
+      "PostCSS": {
+        "subtitle": "CSS framework",
+        "LinkedIn": false,
+        "info": "https://postcss.org/",
+        "proficiency": 0.5,
+        "subskills": []
+      }
+
+    },
+
+    "Scripting": {
+
+      "JavaScript": {
+        "subtitle": "Object-oriented programming language",
+        "LinkedIn": "https://www.linkedin.com/posts/peter-fortier-71359221a_linkedinskillassessment-activity-6835356168752291840-8XCq?utm_source=linkedin_share&utm_medium=member_desktop_web",
+        "info": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "proficiency": 0.9,
+        "subskills": [
+          { "title": "ES6",
+            "info": "https://www.w3schools.com/js/js_es6.asp",
+            "proficiency": 0.9},
+          { "title": "TypeScript",
+            "info": "https://www.typescriptlang.org/",
+            "proficiency": 0.7},
+          { "title": "jQuery",
+            "info": "https://jquery.com/",
+            "proficiency": 0.5},
+          { "title": "Regex",
+            "info": false,
+            "proficiency": false}
+        ]
+      },
+
+      "React.js": {
+        "subtitle": "JavaScript library",
+        "LinkedIn": false,
+        "info": "https://reactjs.org/",
+        "proficiency": 0.8,
+        "subskills": [
+          { "title": "Functional components and props",
+            "info": false,
+            "proficiency": false},
+          { "title": "State",
+            "info": false,
+            "proficiency": false},
+          { "title": "Hooks",
+            "info": false,
+            "proficiency": false}
+        ]
+      },
+
+      "Next.js": {
+        "subtitle": "React.js development framework [See React above]",
+        "LinkedIn": false,
+        "info": "https://reactjs.org/",
+        "proficiency": 0.8,
+        "subskills": [
+          { "title": "Functional components and props",
+            "info": false,
+            "proficiency": false},
+          { "title": "State",
+            "info": false,
+            "proficiency": false},
+          { "title": "Hooks",
+            "info": false,
+            "proficiency": false}
+        ]
+      },
+
+      "Discord.js": {
+        "subtitle": "JavaScript library for Discord API",
+        "LinkedIn": false,
+        "info": "https://discord.js.org/#/docs/discord.js/stable/general/welcome",
+        "proficiency": 0.7,
+        "subskills": []
+      },
+
+      "Three.js": {
+        "subtitle": "JavaScript library for 3D visuals",
+        "LinkedIn": false,
+        "info": "https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene",
+        "proficiency": 0.5,
+        "subskills": []
+      },
+
+      "GSAP": {
+        "subtitle": "JavaScript library for animations",
+        "LinkedIn": false,
+        "info": "https://greensock.com/docs/",
+        "proficiency": 0.4,
+        "subskills": []
+      },
+
+      "D3.js": {
+        "subtitle": "JavaScript library for interactive data graphics",
+        "LinkedIn": false,
+        "info": "https://d3js.org/",
+        "proficiency": 0.3,
+        "subskills": []
+      }
+
+    },
+
+    "Web Hosting": {
+
+      "Netlify": {
+        "subtitle": "Hosting and serverless backend services for web applications",
+        "LinkedIn": false,
+        "info": "https://www.netlify.com/",
+        "proficiency": 0.9,
+        "subskills": [
+          { "title": "Netlify CLI",
+            "info": false,
+            "proficiency": false}
+        ]
+      },
+
+      "GitHub Pages": {
+        "subtitle": "Static site hosting service for GitHub repos",
+        "LinkedIn": false,
+        "info": "https://pages.github.com/",
+        "proficiency": 1.0,
+        "subskills": []
+      }
+
+    }
+
+  },
+
+
+  "Backend": {
+
+    "Programming Languages": {
+
+      "C/C++": {
+        "subtitle": "General-purpose programming language(s)",
+        "LinkedIn": false,
+        "info": "",
+        "proficiency": 0.9,
+        "subskills": [
+          { "title": "Dynamic memory",
+            "info": false,
+            "proficiency": 1.0},
+          { "title": "Structs and classes",
+            "info": false,
+            "proficiency": 1.0},
+          { "title": "Streams",
+            "info": false,
+            "proficiency": 0.9},
+          { "title": "File reading & writing",
+            "info": false,
+            "proficiency": 1.0}
+        ]
+      },
+
+      "Python": {
+        "subtitle": "OOP language",
+        "LinkedIn": false,
+        "info": "https://www.python.org/about/",
+        "proficiency": 0.9,
+        "subskills": [
+          { "title": "Tkinter",
+            "info": "https://docs.python.org/3/library/tkinter.html",
+            "proficiency": 0.8},
+          { "title": "Pillow",
+            "info": "https://pillow.readthedocs.io/en/stable/",
+            "proficiency": 0.8}
+        ]
+      },
+
+      "R": {
+        "subtitle": "Programming language for statistical computing and graphics [See RMarkdown in Frontend and Rstudio in Development Tech]",
+        "LinkedIn": false,
+        "info": "https://www.r-project.org/",
+        "proficiency": 0.8,
+        "subskills": [
+          { "title": "tidyverse",
+            "info": "https://www.tidyverse.org/",
+            "proficiency": 0.9}
+        ]
+      }
+
+    },
+
+    "Application Management": {
+
+      "Firebase": {
+        "subtitle": "Google-backed application development software",
+        "LinkedIn": false,
+        "info": "https://firebase.google.com/",
+        "proficiency": 0.5,
+        "subskills": [
+          { "title": "Databases",
+            "info": false,
+            "proficiency": false},
+          { "title": "Hosting",
+            "info": false,
+            "proficiency": false},
+          { "title": "Analytics",
+            "info": false,
+            "proficiency": false},
+          { "title": "User authentication",
+            "info": false,
+            "proficiency": false}
+        ]
+      },
+
+      "SQL": {
+        "subtitle": "Relational databases",
+        "LinkedIn": false,
+        "info": false,
+        "proficiency": 0.1,
+        "subskills": [
+          { "title": "Table-based, vertically scaleable, predefined schema",
+            "info": false,
+            "proficiency": false}
+        ]
+      },
+
+      "NoSQL": {
+        "subtitle": "Non-relational databases",
+        "LinkedIn": false,
+        "info": false,
+        "proficiency": 0.1,
+        "subskills": [
+          { "title": "Unstructured data, horizontally scaleable, dynamic schema",
+            "info": false,
+            "proficiency": false}
+        ]
+      }
+
+    },
+
+    "Data File Formats": {
+
+      "JSON": {
+        "subtitle": "Data storage file format",
+        "LinkedIn": "https://www.linkedin.com/posts/peter-fortier-71359221a_linkedinskillassessment-activity-6835356249714946048-2LEY?utm_source=linkedin_share&utm_medium=member_desktop_web",
+        "info": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON",
+        "proficiency": 1.0,
+        "subskills": []
+      },
+
+      "XML": {
+        "subtitle": "Data storage file format",
+        "LinkedIn": false,
+        "info": "https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction",
+        "proficiency": 1.0,
+        "subskills": []
+      }
+
+    }
+    
+  },
+
+
+  "Development Technologies": {
+
+    "IDE": {
+
+      "Visual Studio Code": {
+        "subtitle": "Source code editor with IDE extensibility",
+        "LinkedIn": false,
+        "info": "https://code.visualstudio.com/",
+        "proficiency": 0.9,
+        "subskills": [
+          { "title": "Live servers and localhost",
+            "info": false,
+            "proficiency": false},
+          { "title": "Snippets",
+            "info": false,
+            "proficiency": false},
+          { "title": "Source control with Git and SSH",
+            "info": false,
+            "proficiency": false},
+          { "title": "Extensions, customizations, settings.json",
+            "info": false,
+            "proficiency": false}
+        ]
+      },
+
+      "Visual Studio": {
+        "subtitle": "IDE",
+        "LinkedIn": false,
+        "info": "https://visualstudio.microsoft.com/",
+        "proficiency": 0.1,
+        "subskills": []
+      },
+
+      "RStudio": {
+        "subtitle": "IDE for R",
+        "LinkedIn": false,
+        "info": "https://www.rstudio.com/",
+        "proficiency": 0.9,
+        "subskills": []
+      },
+
+      "Atom": {
+        "subtitle": "Source code editor",
+        "LinkedIn": false,
+        "info": "https://atom.io/",
+        "proficiency": 1.0,
+        "subskills": []
+      },
+
+      "Replit": {
+        "subtitle": "Online collaborative IDE",
+        "LinkedIn": false,
+        "info": "https://replit.com/",
+        "proficiency": 0.9,
+        "subskills": [
+          { "title": "Repl databases",
+            "info": false,
+            "proficiency": false},
+          { "title": "Secrets/environment variables",
+            "info": false,
+            "proficiency": false},
+          { "title": "Express webservers",
+            "info": false,
+            "proficiency": false}
+        ]
+      }
+
+    },
+
+    "Version Control": {
+
+      "Git": {
+        "subtitle": "Version control software",
+        "LinkedIn": false,
+        "info": "https://git-scm.com/",
+        "proficiency": 0.7,
+        "subskills": []
+      },
+
+      "GitHub": {
+        "subtitle": "Web-hosted Git repository service",
+        "LinkedIn": false,
+        "info": "https://github.com/",
+        "proficiency": 0.9,
+        "subskills": [
+          { "title": "Github Pages",
+            "info": "https://pages.github.com/",
+            "proficiency": false},
+          { "title": "Initialize Github repository",
+            "info": false,
+            "proficiency": false}
+        ]
+      },
+
+      "GitLab": {
+        "subtitle": "Web-hosted Git repository service",
+        "LinkedIn": false,
+        "info": "https://about.gitlab.com/",
+        "proficiency": 0.6,
+        "subskills": []
+      }
+
+    },
+
+    "Prototyping": {
+
+      "Figma": {
+        "subtitle": "Frontend layout prototyping tool",
+        "LinkedIn": false,
+        "info": "https://www.figma.com/",
+        "proficiency": 0.9,
+        "subskills": [
+          { "title": "Smart animations",
+            "info": false,
+            "proficiency": 1.0},
+          { "title": "Smart selection",
+            "info": false,
+            "proficiency": false},
+          { "title": "SVG export",
+            "info": false,
+            "proficiency": false}
+        ]
+      },
+
+      "InDesign": {
+        "subtitle": "Vector layout and publishing software",
+        "LinkedIn": false,
+        "info": "https://www.adobe.com/products/indesign.html",
+        "proficiency": 0.5,
+        "subskills": []
+      },
+
+      "Affinity Designer": {
+        "subtitle": "Vector layout and publishing software",
+        "LinkedIn": false,
+        "info": "https://affinity.serif.com/en-us/designer/",
+        "proficiency": 0.9,
+        "subskills": [
+          { "title": "Artboards, personas, filters, grids, publishing...",
+            "info": false,
+            "proficiency": false},
+          { "title": "SVG export",
+            "info": false,
+            "proficiency": false}
+        ]
+      }
+
+    }
+
+  },
+
+
+  "More!": {
+    
+    "Spreadsheets": {
+
+      "Microsoft Excel": {
+        "subtitle": "Spreadsheet and data handling software",
+        "LinkedIn": false,
+        "info": "https://www.microsoft.com/en-us/microsoft-365/excel",
+        "proficiency": 0.7,
+        "subskills": [
+          { "title": "Formulas",
+            "info": false,
+            "proficiency": false},
+          { "title": "Data visualization",
+            "info": false,
+            "proficiency": false}
+        ]
+      }
+
+    },
+
+    "Other Programming Software": {
+
+      "Mathematica": {
+        "subtitle": "Mathematical computation program",
+        "LinkedIn": false,
+        "info": "https://www.wolfram.com/mathematica/",
+        "proficiency": 0.7,
+        "subskills": []
+      },
+
+      "Unity": {
+        "subtitle": "Game engine",
+        "LinkedIn": false,
+        "info": "https://unity.com/",
+        "proficiency": 0.3,
+        "subskills": []
+      }
+
+    },
+
+    "Image Manipulation": {
+
+      "Adobe Photoshop": {
+        "subtitle": "Raster graphics and images publisher",
+        "LinkedIn": false,
+        "info": "https://www.adobe.com/products/photoshop.html",
+        "proficiency": 0.5,
+        "subskills": []
+      },
+
+      "Affinity Photo": {
+        "subtitle": "Raster graphics and images publisher",
+        "LinkedIn": false,
+        "info": "https://affinity.serif.com/en-us/photo/",
+        "proficiency": 0.9,
+        "subskills": [
+          { "title": "Post-processing",
+            "info": false,
+            "proficiency": false},
+          { "title": "Masks, filters, inpainting...",
+            "info": false,
+            "proficiency": false},
+          { "title": "Personas and artboards",
+            "info": false,
+            "proficiency": false},
+          { "title": "Perspective manipulation",
+            "info": false,
+            "proficiency": false}
+        ]
+      }
+
+    }
+
+  }
+}

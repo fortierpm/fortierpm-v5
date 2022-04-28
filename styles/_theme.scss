@@ -1,0 +1,11 @@
+@mixin lightmode {
+  --col-bg-prim: #fff;
+
+  --col-text-prim: #000;
+}
+
+@mixin darkmode {
+  --col-bg-prim: #000;
+
+  --col-text-prim: #eee;
+}

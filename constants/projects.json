@@ -1,0 +1,405 @@
+{
+  "Major": {
+
+    "Placeholder": {
+      "subtitle": "Placeholder subtitle. Hooray!",
+      "date": "0000-00-00",
+      "collaborators": [
+        { "name": "Person Person",
+          "link": "https://www.google.com/"},
+        { "name": "Teamname",
+          "link": "https://www.google.com/"}],
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://www.google.com/",
+      "source": "https://www.bing.com/",
+      "tags": [
+        "NextJS",
+        "ReactJS",
+        "SCSS"
+      ]
+    },
+
+    "This Website!": {
+      "subtitle": "The source code for what you're looking at, written using Next.js.",
+      "date": "2022-00-00",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": false,
+      "source": "https://github.com/fortierpm/fortierpm-v5",
+      "tags": [
+        "NextJS",
+        "ReactJS",
+        "SCSS"
+      ]
+    },
+
+    "Personal Portfolio v4": {
+      "subtitle": "lorem ipsum",
+      "date": "2022-02-23",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://peterfortier.netlify.app/",
+      "source": "https://github.com/fortierpm/personal-portfolio",
+      "tags": [
+        "ReactJS",
+        "ReactStatic",
+        "SCSS"
+      ]
+    },
+
+    "Personal Portfolio v3": {
+      "subtitle": "Made with React. Also check out the earlier version made in vanilla Javascript.",
+      "date": "2021-04-08",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpmv3-react.netlify.app/",
+      "source": "https://github.com/fortierpm/fortierpmv3-react",
+      "tags": [
+        "ReactJS",
+        "JavaScript",
+        "SCSS"
+      ]
+    },
+
+    "London Interactive Guide": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-05-25",
+      "collaborators": [
+        { "name": "Elle Miller",
+          "link": false},
+        { "name": "Jacob Merrick",
+          "link": false}],
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": false,
+      "source": "https://github.com/fortierpm/london-interactive-guide",
+      "tags": [
+        "Python",
+        "Tkinter",
+        "PillowPython"
+      ]
+    },
+
+    "Dice Tower - Discord Bot": {
+      "subtitle": "lorem ipsum",
+      "date": "2022-02-01",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": false,
+      "source": "https://github.com/fortierpm/dice-tower",
+      "tags": [
+        "DiscordBot",
+        "JavaScript",
+        "Replit"
+      ]
+    },
+
+    "Personal Portfolio v3 - Vanilla JavaScript": {
+      "subtitle": "Also see the React translation and improvement of this site.",
+      "date": "2021-03-22",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm.github.io/fortierpmv3/",
+      "source": "https://github.com/fortierpm/fortierpmv3",
+      "tags": [
+        "JavaScript",
+        "SCSS"
+      ]
+    }
+
+  },
+
+
+  "Minor": {
+
+    "Slime Card": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-09-04",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm-slime-card.netlify.app/",
+      "source": "https://github.com/fortierpm/slime-card-demo",
+      "tags": [
+        "ReactJS",
+        "JavaScript",
+        "SVG"
+      ]
+    },
+
+    "Absorb Demo": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-08-12",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm-absorb-demo.netlify.app/",
+      "source": "https://github.com/fortierpm/absorb-demo",
+      "tags": [
+        "ReactJS",
+        "JavaScript",
+        "SVG"
+      ]
+    },
+
+    "Advanced Dropdown Menu": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-09-12",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm.github.io/advanced-dropdown/",
+      "source": "https://github.com/fortierpm/advanced-dropdown",
+      "tags": [
+        "ReactJS",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+
+    "Before-After Slider": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-02-27",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm.github.io/before-after-slider/",
+      "source": "https://github.com/fortierpm/before-after-slider",
+      "tags": [
+        "JavaScript",
+        "CSS"
+      ]
+    },
+
+    "Constellations": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-08-23",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm.github.io/constellations-demo/",
+      "source": "https://github.com/fortierpm/constellations-demo",
+      "tags": [
+        "JavaScript",
+        "HTMLCanvas"
+      ]
+    },
+
+    "Text Particles": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-08-23",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm.github.io/text-particles/",
+      "source": "https://github.com/fortierpm/text-particles",
+      "tags": [
+        "JavaScript",
+        "HTMLCanvas"
+      ]
+    },
+
+    "Mouse Particles": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-08-23",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm.github.io/mouse-particles-animation/",
+      "source": "https://github.com/fortierpm/mouse-particles-animation",
+      "tags": [
+        "JavaScript",
+        "HTMLCanvas"
+      ]
+    },
+
+    "Animated Page Open": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-01-22",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm.github.io/animated-open/",
+      "source": "https://github.com/fortierpm/animated-open",
+      "tags": [
+        "JavaScript",
+        "GSAPJS",
+        "CSS"
+      ]
+    },
+
+    "Card Tricks (Fork)": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-09-28",
+      "collaborators": [
+        { "name": "Jeff Delaney",
+          "link": "https://developers.google.com/community/experts/directory/profile/profile-jeff-delaney"}],
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm.github.io/card-tricks/",
+      "source": "https://github.com/fortierpm/card-tricks",
+      "tags": [
+        "CSS",
+        "SVG"
+      ]
+    },
+
+    "Animated Grid": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-09-12",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm.github.io/animated-grid/",
+      "source": "https://github.com/fortierpm/animated-grid",
+      "tags": [
+        "CSS"
+      ]
+    },
+
+    "Fluid Image Popups": {
+      "subtitle": "Image previews grow on hover and popup to full size when clicked.",
+      "date": "2021-09-12",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm.github.io/fluid-popups/",
+      "source": "https://github.com/fortierpm/fluid-popups",
+      "tags": [
+        "JavaScript",
+        "CSS"
+      ]
+    },
+
+    "Animated Logo": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-01-18",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm.github.io/animated-logo/",
+      "source": "https://github.com/fortierpm/animated-logo",
+      "tags": [
+        "CSS",
+        "SVG"
+      ]
+    },
+
+    "No-JavaScript Carousel": {
+      "subtitle": "lorem ipsum",
+      "date": "2021-01-23",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "/assets/project_thumbs/placeholder-image.png",
+      "hosting": "https://fortierpm.github.io/nojs-carousel/",
+      "source": "https://github.com/fortierpm/nojs-carousel",
+      "tags": [
+        "CSS"
+      ]
+    }
+
+  },
+
+
+  "Graphic": {
+
+    "Cosmos Series": {
+      "subtitle": "lorem ipsum",
+      "date": "2020-12-04",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "https://i.imgur.com/WN2d1i2.jpg",
+      "hosting": "https://imgur.com/a/5lIXxfK",
+      "source": false,
+      "tags": [
+        "VectorGraphic",
+        "SVG",
+        "AffinityDesigner"
+      ]
+    },
+
+    "Quiet Series": {
+      "subtitle": "lorem ipsum",
+      "date": "2020-04-25",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "https://i.imgur.com/pfQHelb.jpg",
+      "hosting": "https://imgur.com/a/iroiygc",
+      "source": false,
+      "tags": [
+        "VectorGraphic",
+        "SVG",
+        "AffinityDesigner"
+      ]
+    },
+
+    "Other Isometric": {
+      "subtitle": "lorem ipsum",
+      "date": "2020-04-25",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "https://i.imgur.com/tbD6zss.jpg",
+      "hosting": "https://imgur.com/a/5Vl0MnV",
+      "source": false,
+      "tags": [
+        "VectorGraphic",
+        "SVG",
+        "AffinityDesigner"
+      ]
+    }
+
+  },
+
+
+  "Art": {
+
+    "Paper - HS": {
+      "subtitle": "lorem ipsum",
+      "date": "2020-05-01",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "https://i.imgur.com/XcTFp4i.jpg",
+      "hosting": "https://imgur.com/a/bdOHWG3",
+      "source": false,
+      "tags": [
+        "PaperCollageArt",
+        "ModPodgeArt"
+      ]
+    },
+
+    "Watercolor - HS": {
+      "subtitle": "lorem ipsum",
+      "date": "2020-05-01",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "https://i.imgur.com/W8mzvlR.jpg",
+      "hosting": "https://imgur.com/a/vCNmvhF",
+      "source": false,
+      "tags": [
+        "WatercolorArt",
+        "BlackPenArt"
+      ]
+    },
+
+    "Print - HS": {
+      "subtitle": "lorem ipsum",
+      "date": "2020-05-01",
+      "collaborators": false,
+      "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+      "thumbLg": "https://i.imgur.com/GUPgke8.jpg",
+      "hosting": "https://imgur.com/a/kfB4FT9",
+      "source": false,
+      "tags": [
+        "PrintArt",
+        "DrypointArt"
+      ]
+    }
+
+  }
+}

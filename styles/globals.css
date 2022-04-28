@@ -1,16 +1,50 @@
-html,
-body {
+.lightmode {
+  --col-bg-prim: #fff;
+  --col-text-prim: #000;
+}
+
+.darkmode {
+  --col-bg-prim: #000;
+  --col-text-prim: #eee;
+}
+
+* {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Monteserrat", Roboto, Helvetica Neue, sans-serif;
+  background: var(--col-bg-prim);
+  color: var(--col-text-prim);
 }
 
 a {
   color: inherit;
-  text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.full-vw-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
+.full-page-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--col-bg-prim);
+  color: var(--col-text-prim);
+}
+/*# sourceMappingURL=globals.css.map */
