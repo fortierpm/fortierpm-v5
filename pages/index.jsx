@@ -32,7 +32,25 @@ export default function Home() {
     <div id="Home">
       <div className="full-vw-wrapper">
         <div className="full-page-wrapper">
-          <h1>The Home Page</h1>
+          {/* HERO */}
+          <section className="home-hero">
+            <h1 className="home-hero-title">Hi!<br />I&apos;m Peter</h1>
+          </section>
+          {/* PROJECTS */}
+          <section className="home-section project-section">
+            <h2 className="home-section-title">Projects</h2>
+            <div className="home-projects-navigator">
+              
+            </div>
+          </section>
+          {/* SKILLS */}
+          <section className="home-section skills-section">
+            <h2 className="home-section-title">Skills</h2>
+          </section>
+          {/* CONTACT */}
+          <section id="Contact" className="home-section contact-section">
+            <h2 className="home-section-title">Contact Information and Socials</h2>
+          </section>
         </div>
       </div>
     </div>

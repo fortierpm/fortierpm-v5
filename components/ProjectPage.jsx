@@ -24,11 +24,14 @@ export default function ProjectPage({ project }) {
               );
             })}
           </div>}
-          <div className="project-image">
-            <img src={`${process.env.PUBLIC_URL}/assets/project_thumbs/${project.thumbLg}`} alt="Project thumbnail" />
+          <div className="project-image"> {/* Note the process.env.PUBLIC_URL here as well as the next.config.js and .env.local files for Next.js env vars */}
+            <img src={project.thumbLg.startsWith("http")
+              ? project.thumbLg
+              : `${process.env.PUBLIC_URL}/assets/project_thumbs/${project.thumbLg}`} alt="Project thumbnail"
+            />
           </div>
           {project.hosting && <div className="project-hosting">Project hosting: <a href={project.hosting}>{project.hosting}</a></div>}
-          <div className="project-source-code">Project source code: <a href={project.source}>{project.source}</a></div>
+          {project.source && <div className="project-source-code">Project source code: <a href={project.source}>{project.source}</a></div>}
           <ul className="project-tags-list">
             {project.tags.map((tag, i) => {
               return (

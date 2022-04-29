@@ -47,4 +47,8 @@ a {
   background-color: var(--col-bg-prim);
   color: var(--col-text-prim);
 }
+
+.home-section {
+  min-height: 30rem;
+}
 /*# sourceMappingURL=globals.css.map */

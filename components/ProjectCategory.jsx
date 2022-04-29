@@ -17,7 +17,7 @@ export default function ProjectCategory({ route, title, data }) {
       </div>
       {showProjects && <ul className="project-catergory-list">{data.map((project, i) => {
         return (
-          <li key={i}><Link href={`/projects/${route}/${project.route}`}><a>{project.title}</a></Link></li>
+          <li key={i}><Link href={`/projects/${route}/${project.route}`} prefetch={false}><a>{project.title}</a></Link></li>
         );
       })}</ul>}
     </section>
