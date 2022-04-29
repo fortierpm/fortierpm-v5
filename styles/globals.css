@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: var(--col-text-prim);
 }
 
 .full-vw-wrapper {

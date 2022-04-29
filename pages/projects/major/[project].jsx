@@ -1,3 +1,5 @@
+import ProjectPage from "../../../components/ProjectPage";
+
 import data from "../../../constants/projects-major.json";
 
 // collect array of all static paths
@@ -27,21 +29,22 @@ export const getStaticProps = ({ params }) => {
   // const data = await res.json();
   const project = data.find(proj => { // needed `await` for async here
     return proj.route === params.project;
-  })
+  });
 
   return { props: { project } };
 }
 
 // Rendered ouput
 export default function Project({ project }) {
-  if (!project) {
-    return <p>Loading...</p>
-  }
+  // if (!project) {
+  //   return <p>Loading...</p>
+  // }
 
   return (
-    <div>
-      <h1>{project.title}</h1>
-      <p>{project.subtitle}</p>
-    </div>
+    <ProjectPage project={project} />
+    // <div>
+    //   <h1>{project.title}</h1>
+    //   <p>{project.subtitle}</p>
+    // </div>
   );
 }

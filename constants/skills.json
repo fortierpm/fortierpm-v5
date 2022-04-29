@@ -170,14 +170,6 @@
         ]
       },
 
-      "Discord.js": {
-        "subtitle": "JavaScript library for Discord API",
-        "LinkedIn": false,
-        "info": "https://discord.js.org/#/docs/discord.js/stable/general/welcome",
-        "proficiency": 0.7,
-        "subskills": []
-      },
-
       "Three.js": {
         "subtitle": "JavaScript library for 3D visuals",
         "LinkedIn": false,
@@ -281,6 +273,14 @@
             "info": "https://www.tidyverse.org/",
             "proficiency": 0.9}
         ]
+      },
+
+      "Discord.js": {
+        "subtitle": "JavaScript library for Discord API",
+        "LinkedIn": false,
+        "info": "https://discord.js.org/#/docs/discord.js/stable/general/welcome",
+        "proficiency": 0.7,
+        "subskills": []
       }
 
     },

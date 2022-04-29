@@ -10,8 +10,11 @@ import styles from '../styles/Home.module.css';
 import Fonts from "../components/Fonts";
 
 // Constant Imports
-const projects = require("../constants/projects.json");
-const skills = require("../constants/skills.json");
+import majorProjects from "../constants/projects-major.json";
+import minorProjects from "../constants/projects-major.json";
+import graphicProjects from "../constants/projects-major.json";
+import artProjects from "../constants/projects-major.json";
+import skills from "../constants/skills.json";
 
 // Fontawesome Icons
 // https://fontawesome.com/v5/docs/web/use-with/react

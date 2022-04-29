@@ -1,0 +1,52 @@
+[
+  {
+    "route": "cosmos-series",
+    "title": "Cosmos Series",
+    "subtitle": "lorem ipsum",
+    "date": "2020-12-04",
+    "collaborators": false,
+    "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+    "thumbLg": "https://i.imgur.com/WN2d1i2.jpg",
+    "hosting": "https://imgur.com/a/5lIXxfK",
+    "source": false,
+    "tags": [
+      "VectorGraphic",
+      "SVG",
+      "AffinityDesigner"
+    ]
+  },
+
+  {
+    "route": "quiet-series",
+    "title": "Quiet Series",
+    "subtitle": "lorem ipsum",
+    "date": "2020-04-25",
+    "collaborators": false,
+    "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+    "thumbLg": "https://i.imgur.com/pfQHelb.jpg",
+    "hosting": "https://imgur.com/a/iroiygc",
+    "source": false,
+    "tags": [
+      "VectorGraphic",
+      "SVG",
+      "AffinityDesigner"
+    ]
+  },
+
+  {
+    "route": "other-isometric",
+    "title": "Other Isometric",
+    "subtitle": "lorem ipsum",
+    "date": "2020-04-25",
+    "collaborators": false,
+    "thumbSm": "/assets/project_thumbs/placeholder-image-small.png",
+    "thumbLg": "https://i.imgur.com/tbD6zss.jpg",
+    "hosting": "https://imgur.com/a/5Vl0MnV",
+    "source": false,
+    "tags": [
+      "VectorGraphic",
+      "SVG",
+      "AffinityDesigner"
+    ]
+  }
+]
