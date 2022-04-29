@@ -41,8 +41,6 @@ function MyApp({ Component, pageProps }) {
     localStorage.setItem("theme", !theme);
   }
 
-
-
   return (
     <>
       <Head>

@@ -1,7 +1,7 @@
 {
   "Frontend": {
 
-    "Markup": {
+    "Markup Languages and Document Structure": {
 
       "HTML": {
         "subtitle": "Standard markup language for web browsers",
@@ -359,7 +359,7 @@
 
   "Development Technologies": {
 
-    "IDE": {
+    "Integrated Development Environments": {
 
       "Visual Studio Code": {
         "subtitle": "Source code editor with IDE extensibility",

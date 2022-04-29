@@ -1,6 +1,6 @@
 @import "theme";
 
-// Variables
+// VARIABLES
 :root {
   // sitewide vars
 }
@@ -13,7 +13,7 @@
   @include darkmode;
 }
 
-// Universal styles
+// UNIVERSAL STYLES
 * {
   padding: 0;
   margin: 0;
@@ -29,7 +29,7 @@ a {
   color: var(--col-text-prim);
 }
 
-// Full website styles
+// FULL WEBSITE STYLES
 .full-vw-wrapper {
   width: 100%;
   overflow-x: hidden;
@@ -43,3 +43,12 @@ a {
   background-color: var(--col-bg-prim);
   color: var(--col-text-prim);
 }
+
+// HOME PAGE STYLES
+
+
+// PROJECTS PAGE STYLES
+
+// SINGLE PROJECT PAGE STYLES
+
+// SKILLS PAGE STYLES

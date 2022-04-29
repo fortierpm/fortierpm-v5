@@ -7,6 +7,9 @@ const nextConfig = {
   //   }
   //   return config;
   // },
+  env: {
+    PUBLIC_URL: "https://fortierpm.netlify.app",
+  }
 }
 
 module.exports = nextConfig;

@@ -9,5 +9,5 @@ To deploy builds to netlify:
 - Open a Command Prompt terminal (cmd)
 - Enter command `netlify deploy --prod`
   * Use command `netlify -h` to get help
-- Type `dist` branch for deploy
+- Type `out` branch for deploy
   

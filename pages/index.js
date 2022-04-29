@@ -26,43 +26,15 @@ import { faLinkedin, faInstagram, faFacebook, faTwitter, faGithub} from '@fortaw
 
 export default function Home() {
 
-  // // LIGHT/DARKMODE ----------------------
-
-  // const [lightMode, setLightMode] = useState(true);
-  // useEffect(() => {
-  //   // Note that useEffect does not run for SSR
-  //   setLightMode(JSON.parse(localStorage.getItem("theme")) !== null  ? JSON.parse(localStorage.getItem("theme")) : true);
-  //   const theme = (JSON.parse(localStorage.getItem("theme"))) ? "lightmode" : "darkmode";
-  //   if (JSON.parse(localStorage.getItem("theme")) !== null) {
-  //     document.body.classList.add(theme);
-  //   } else {
-  //     localStorage.setItem("theme", lightMode);
-  //     document.body.classList.add("lightmode");
-  //   }
-  // }, []);
-
-  // const handleLightMode = (e) => {
-  //   e.preventDefault();
-  //   setLightMode(!lightMode);
-  //   if (!lightMode) {
-  //     document.body.classList.replace("darkmode", "lightmode");
-  //   } else {
-  //     document.body.classList.replace("lightmode", "darkmode");
-  //   }
-  //   localStorage.setItem("theme", !lightMode);
-  // }
-
+  
 
   return (
-    <div className="Home">
-
+    <div id="Home">
       <div className="full-vw-wrapper">
         <div className="full-page-wrapper">
-          {/*<button onClick={handleLightMode}>View mode</button>*/}
           <h1>The Home Page</h1>
         </div>
       </div>
-
     </div>
   );
 }
