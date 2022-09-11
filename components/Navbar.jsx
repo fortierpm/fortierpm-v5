@@ -10,8 +10,7 @@ export default function Navbar({ theme, handleTheme }) {
     <div className="site-navbar">
       <div className="full-logo">
         <div className="logo-symbol">
-          <img src={`${process.env.PUBLIC_URL}/assets/project_thumbs/placeholder-image.png`} alt="" />
-          {/* <img src={logoSymbol} alt="" /> */}
+          <img src={`${process.env.PUBLIC_URL}/assets/brand/peterfortier-logo.png`} alt="" />
         </div>
         <div className="logo-title">Peter Fortier</div>
       </div>
