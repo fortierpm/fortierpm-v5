@@ -29,6 +29,18 @@ a {
   color: var(--col-text-prim);
 }
 
+// SITE NAV STYLES
+.logo-symbol {
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.theme-icon {
+  transform: rotate(-10deg);
+}
+
 // FULL WEBSITE STYLES
 .full-vw-wrapper {
   width: 100%;

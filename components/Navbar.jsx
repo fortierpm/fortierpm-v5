@@ -1,12 +1,27 @@
 import Link from "next/link";
 
-export default function Navbar({ handleTheme }) {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
+
+// import logoSymbol from "../assets/project_thumbs/placeholder-image.png";
+
+export default function Navbar({ theme, handleTheme }) {
   return (
     <div className="site-navbar">
-      <div className="logo">Peter Fortier</div>
+      <div className="full-logo">
+        <div className="logo-symbol">
+          <img src={`${process.env.PUBLIC_URL}/assets/project_thumbs/placeholder-image.png`} alt="" />
+          {/* <img src={logoSymbol} alt="" /> */}
+        </div>
+        <div className="logo-title">Peter Fortier</div>
+      </div>
       <ul className="site-nav-items">
         <li className="site-nav-item">
-          <button onClick={handleTheme} className="theme-handler">Theme</button>
+          <button onClick={handleTheme} className="theme-handler">
+            <div className="theme-icon-container">
+              <FontAwesomeIcon className="theme-icon" icon={!theme ? faMoon : faSun} size="2x" />
+            </div>
+          </button>
         </li>
         <li className="site-nav-item">
           <Link prefetch={false} href="/"><a className="site-nav-link">Home</a></Link>

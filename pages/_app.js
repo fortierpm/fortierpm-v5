@@ -50,7 +50,7 @@ function MyApp({ Component, pageProps }) {
         <Fonts />
       </Head>
 
-      <Navbar handleTheme={handleTheme} />
+      <Navbar theme={theme} handleTheme={handleTheme} />
 
       <Component {...pageProps} />
     </>

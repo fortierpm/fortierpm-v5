@@ -23,9 +23,39 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLeaf, faSun, faMoon, faPaperPlane, faUniversity, faSms } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faInstagram, faFacebook, faTwitter, faGithub} from '@fortawesome/free-brands-svg-icons';
 
+// Built constants; not working/depracated
+// const featureProjects = [
+//   majorProjects[0], majorProjects[1],
+//   minorProjects[0], minorProjects[1],
+//   graphicProjects[0], graphicProjects[1],
+//   artProjects[0], artProjects[1]
+// ];
 
 export default function Home() {
+  
+  const [featureProjects, setFeatureProjects] = useState([]);
+  const [activeFeatPos, setActiveFeatPos] = useState(null);
+  const [activeFeature, setActiveFeature] = useState(null);
 
+  useEffect(() => {
+    setFeatureProjects([
+      majorProjects[0], majorProjects[1],
+      minorProjects[0], minorProjects[1],
+      graphicProjects[0], graphicProjects[1],
+      artProjects[0], artProjects[1]
+    ]);
+    setActiveFeatPos(0);
+    setActiveFeature(majorProjects[0]);
+  }, []);
+
+  const changeFeature = (pos) => {
+    if (pos > 0 && pos < 8) {
+      setActiveFeature(featureProjects[pos]);
+      setActiveFeatPos(pos);
+    } else {
+      throw "Error: Improper 'featured project' selector value.";
+    }
+  }
   
 
   return (
@@ -38,9 +68,30 @@ export default function Home() {
           </section>
           {/* PROJECTS */}
           <section className="home-section project-section">
-            <h2 className="home-section-title">Projects</h2>
-            <div className="home-projects-navigator">
-              
+            <h2 className="home-section-title">Featured Projects</h2>
+            <div className="home-proj-featured">
+              {featureProjects.length == 0 ? <div>Loading display</div> :
+                <><div className="feat-display-area">
+                  {/* featured project tile */}
+                  <article className="feat-display-container">
+                    <div className="feat-display-title">{activeFeature.title}</div>
+                    <div className="feat-display-taglist">
+                      {activeFeature.tags.map((tag, i) => {
+                        <div key={i} className="feat-display-tag">{tag}</div>
+                      })}
+                    </div>
+                  </article>
+                </div>
+                {/* featured project selector */}
+                <div className="home-feat-selector">
+                  {featureProjects.map((proj, i) => {
+                    <div key={i} className={`feat-selector-item ${activeFeatPos == i && "feat-item-active"}`}>
+                      <img src={proj.thumbSm} alt="" />
+                      <div className="feat-selector-title">{proj.title}</div>
+                    </div>
+                  })}
+                </div></>
+              }
             </div>
           </section>
           {/* SKILLS */}

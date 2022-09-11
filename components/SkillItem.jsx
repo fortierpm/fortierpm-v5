@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-export default function SkillItem({ skillTitle, skill }) {
-  const [showSubskills, setShowSubskills] = useState(false);
+export default function SkillItem({ skillTitle, skill, showDefault=false }) {
+  const [showSubskills, setShowSubskills] = useState(showDefault);
 
   return (
-    <div className="skill-item">
-      <h4 onClick={() => setShowSubskills(!showSubskills)} className="skill-title">{skillTitle}</h4>
+    <div onClick={() => setShowSubskills(!showSubskills)} className="skill-item">
+      <h4 className="skill-title">{skillTitle}</h4>
       <div className="skill-subtitle">{skill.subtitle}</div>
       <div className="skill-proficiency">{skill.proficiency}</div>
       {showSubskills && <div className="subskills-container">
